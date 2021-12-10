@@ -334,6 +334,76 @@ ul {
   overflow: hidden;
 }
 
+
+.section__work-link {
+    background: var(--body);
+    color: var(--purple);
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    font-family: var(--MSB);
+    padding: 19px 0 19px 19px;
+    border: none;
+    box-shadow: 0px 0px 5px 3px rgba(113, 119, 241, 0.15);
+}
+.section__work-link:hover {
+  background: none;
+  color: var(--purple);
+}
+
+.section__work-link.active {
+  background: var(--purple);
+  color: var(--body);
+}
+
+.section__work-pane {
+  box-shadow: 0px 0px 5px 3px rgba(113, 119, 241, 0.15);
+  border-radius: 8px;
+  padding: 20px;
+  height: 100%;
+}
+
+.tab-content {
+  height: 100%;
+}
+.section__work-image {
+  height: 320px;
+}
+.section__work-img {
+  object-fit: cover;
+}
+.section__work-title {
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: capitalize;
+  font-family: var(--MSB);
+  color: var(--purple);
+}
+.section__work-text {
+  font-size: 18px;
+  line-height: 150%;
+  text-transform: capitalize;
+}
+.section__work-btn {
+  max-width: 190px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+  font-family: var(--MSB);
+  padding: 11px 0;
+}
+
+
+
+
+
+
+
+
+
 /* Main end */
 
 /* Root end */
