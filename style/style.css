@@ -13,6 +13,8 @@
   --dots-active: #7177f1;
   --purple: #7177f1;
 }
+/* Root end */
+
 
 body {
   background: var(--body);
@@ -397,16 +399,63 @@ ul {
 }
 
 
-
-
-
-
-
-
-
 /* Main end */
 
-/* Root end */
+/* footer start */
+
+.footer__item-link {
+  font-size: 24px;
+  line-height: 16px;
+  color: var(--purple);
+  text-transform: capitalize;
+}
+.footer__item-link:hover {
+  color: var(--purple);
+}
+.footer__info-tell{
+  font-size: 24px;
+  line-height: 16px;
+  color: var(--purple);
+  text-transform: capitalize;
+}
+.footer__info-tell:hover{
+  color: var(--purple);
+}
+.footer__info-gmail{
+  font-size: 24px;
+  line-height: 16px;
+  color: var(--purple);
+  text-transform: capitalize;
+}
+.footer__info-gmail:hover{
+  color: var(--purple);
+}
+.footer__logo{
+  display: flex;
+  justify-content: center;
+}
+.footer{
+  padding: 220px 0 130px 0;
+}
+.footer__list{
+  padding: 30px 0 15px 0;
+  display: flex;
+  justify-content: space-around;
+}
+.footer__info{
+  max-width: 630px;
+  width: 100%;
+}
+.footer__info-about{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+
+
+/* footer end */
 
 @media (max-width: 1200px) {
   .section__about-image {
@@ -429,10 +478,26 @@ ul {
     text-align: center;
   }
   .section__about-text {
+    text-align: center;
+  }
+  .footer__info-gmail{
     font-size: 16px;
-    text-align: justify;
+    line-height: 10px;
+  }
+  .footer__info-tell{
+    font-size: 16px;
+    line-height: 10px;
   }
 }
+@media (max-width: 369px){
+  .footer__info-gmail{
+    margin-top: 20px;
+    text-align: center;
+  }
+  .footer__info-tell{
+    text-align: center;
+  }
+} 
 
 @keyframes qwerty {
   0% {
